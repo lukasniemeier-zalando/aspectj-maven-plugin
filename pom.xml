@@ -29,10 +29,10 @@
     </licenses>
 
     <properties>
-        <aspectjVersion>1.8.2</aspectjVersion>
+        <aspectjVersion>1.8.5</aspectjVersion>
         <mavenVersion>2.2.1</mavenVersion>
         <changesPluginVersion>2.10</changesPluginVersion>
-        <mojo.java.target>1.6</mojo.java.target> <!-- to ensure correct JDK requirement om project summary page, otherwise 1.5 would be enough to compile -->
+        <mojo.java.target>1.7</mojo.java.target> <!-- to ensure correct JDK requirement om project summary page, otherwise 1.5 would be enough to compile -->
     </properties>
 
     <prerequisites>
@@ -49,76 +49,19 @@
         <system>jira</system>
         <url>http://jira.codehaus.org/browse/MASPECTJ</url>
     </issueManagement>
-    <ciManagement>
-        <system>bamboo</system>
-        <url>http://bamboo-ci.codehaus.org/browse/MOJO-MASPECTJ</url>
-        <notifiers>
-            <notifier>
-                <type>mail</type>
-                <sendOnError>true</sendOnError>
-                <sendOnFailure>true</sendOnFailure>
-                <sendOnSuccess>true</sendOnSuccess>
-                <sendOnWarning>true</sendOnWarning>
-                <configuration>
-                    <address>david@codehaus.org</address>
-                </configuration>
-            </notifier>
-        </notifiers>
-    </ciManagement>
 
     <developers>
         <developer>
-            <id>kaare</id>
-            <name>Kaare Nilsen</name>
-            <email>kaare.nilsen@gmail.com</email>
-            <organization>Arktekk</organization>
-            <organizationUrl>http://arktekk.no</organizationUrl>
+            <id>haskovec</id>
+            <name>Jeffrey Haskovec</name>
+            <email>haskovec@gmail.com</email>
+            <organizationUrl>https://haskovec.com</organizationUrl>
             <roles>
                 <role>Java Developer</role>
             </roles>
-            <timezone>+1</timezone>
-        </developer>
-        <developer>
-            <name>Lennart Jörelid</name>
-            <email>lj@jguru.se</email>
-            <organization>jGuru Europe AB</organization>
-            <roles>
-                <role>Java Developer</role>
-            </roles>
-            <timezone>+1</timezone>
+            <timezone>-6</timezone>
         </developer>
     </developers>
-    <contributors>
-        <contributor>
-            <name>Thor Age Eldby</name>
-            <email>tel@objectnet.no</email>
-            <roles>
-                <role>Java Developer</role>
-            </roles>
-            <timezone>+1</timezone>
-        </contributor>
-        <contributor>
-            <name>David J. M. Karlsen</name>
-            <email>david@codehaus.org</email>
-            <organization>davidkarlsen.com</organization>
-            <organizationUrl>http://www.davidkarlsen.com</organizationUrl>
-            <url>http://xircles.codehaus.org/users/david</url>
-            <roles>
-                <role>Java Developer</role>
-            </roles>
-            <timezone>+1</timezone>
-        </contributor>
-        <contributor>
-            <name>Marvin Froeder</name>
-            <email>velo.br@gmail.com</email>
-            <timezone>-3</timezone>
-        </contributor>
-        <contributor>
-            <name>Krzysztof Debski</name>
-            <email>kdebski85@gmail.com</email>
-            <timezone>+1</timezone>
-        </contributor>
-    </contributors>
 
     <dependencies>
         <!-- Maven core -->
@@ -202,7 +145,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.3</version>
+                    <version>3.4</version>
                     <executions>
                         <execution>
                             <id>help-mojo</id>
@@ -220,17 +163,17 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-dependency-plugin</artifactId>
-                    <version>2.8</version>
+                    <version>2.10</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
-                    <version>3.3</version>
+                    <version>3.4</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>2.7</version>
+                    <version>2.8</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -267,7 +210,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.17</version>
+                <version>2.18.1</version>
                 <configuration>
                     <skip>false</skip>
                     <excludes>
@@ -380,7 +323,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.7</version>
+                <version>2.8</version>
                 <reportSets>
                     <reportSet>
                         <reports>
