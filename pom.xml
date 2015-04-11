@@ -2,12 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>mojo-parent</artifactId>
-        <version>33</version>
-    </parent>
-
+    <groupId>org.haskovec</groupId>
     <artifactId>aspectj-maven-plugin</artifactId>
     <version>1.8-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
@@ -130,6 +125,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
+            <version>4.12</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugin-testing</groupId>
@@ -223,6 +219,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-invoker-plugin</artifactId>
+                <version>1.10</version>
                 <executions>
                     <execution>
                         <id>integration-test</id>
@@ -290,7 +287,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-changes-plugin</artifactId>
-                <version>${changesPluginVersion}</version>
+                <version>2.11</version>
                 <configuration>
                     <columnNames>Type,Key,Summary,Assignee,Status,Resolution,Created</columnNames>
                     <generateJiraAnnouncement>true</generateJiraAnnouncement>
