@@ -358,6 +358,17 @@ public abstract class AbstractAjcCompiler extends AbstractAjcMojo {
     protected String warn;
 
     /**
+     * Set the compiler "proc" argument.
+     * Aspectj supports Annotation processing since 1.8.2, it can been disabled by <code>proc:none</code>.
+     *
+     * @parameter
+     * @see <a href="https://www.eclipse.org/aspectj/doc/released/README-182.html">AspectJ 1.8.2 Release notes</a>
+     * @see <a href="https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javac.html#processing">Annotation Processing</a>
+     */
+    protected String proc;
+
+
+    /**
      * The filename holding AJC build arguments.
      * The file will be placed in the project build output directory, and will contain all the arguments passed to
      * the AJC compiler in the last run, and also all the files included in the AJC build.
@@ -558,6 +569,10 @@ public abstract class AbstractAjcCompiler extends AbstractAjcMojo {
         // Add warn option
         if (null != warn) {
             ajcOptions.add("-warn:" + warn);
+        }
+
+        if (null != proc) {
+            ajcOptions.add("-proc:" +proc);
         }
 
         if (Xset != null && !Xset.isEmpty()) {
