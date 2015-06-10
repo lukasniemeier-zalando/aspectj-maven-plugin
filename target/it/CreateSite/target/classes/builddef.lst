@@ -1,9 +1,0 @@
--1.5
--verbose
--classpath
-/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateSite/target/classes
--d
-/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateSite/target/classes
-/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateSite/src/main/aspect/OldStyleAspect.aj
-/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateSite/src/main/aspect/Azpect.java
-/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateSite/src/main/java/Clazz.java

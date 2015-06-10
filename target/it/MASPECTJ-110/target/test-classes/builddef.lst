@@ -1,9 +1,0 @@
--1.5
--classpath
-/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/target/test-classes:/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/target/classes
--aspectpath
-/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/target/classes
--d
-/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/target/test-classes
-/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/src/test/java/AnotherClass.java
-/home/lniemeier/work/aspectj-maven-plugin/target/it/MASPECTJ-110/src/test/trivialtestaspects/TrivialTestAspect.java

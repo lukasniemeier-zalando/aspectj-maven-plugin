@@ -1,2 +1,0 @@
-src.includes = src/main/aspect/de/zalando/mojo/aspectj/OldStyleAspect.aj,\
-               src/main/java/

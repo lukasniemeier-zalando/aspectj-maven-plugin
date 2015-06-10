@@ -1,8 +1,0 @@
--1.5
--classpath
-/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/4.12/junit-4.12.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/TOFIX_MASPECTJ-4/target/classes
--d
-/home/lniemeier/work/aspectj-maven-plugin/target/it/TOFIX_MASPECTJ-4/target/classes
-/home/lniemeier/work/aspectj-maven-plugin/target/it/TOFIX_MASPECTJ-4/src/main/java/Clazz.java
-/home/lniemeier/work/aspectj-maven-plugin/target/it/TOFIX_MASPECTJ-4/src/main/aspect/OldStyleAspect.aj
-/home/lniemeier/work/aspectj-maven-plugin/target/it/TOFIX_MASPECTJ-4/src/main/aspect/Azpect.java

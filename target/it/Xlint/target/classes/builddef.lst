@@ -1,9 +1,0 @@
--Xlint:ignore
--1.5
--classpath
-/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/Xlint/target/classes
--d
-/home/lniemeier/work/aspectj-maven-plugin/target/it/Xlint/target/classes
-/home/lniemeier/work/aspectj-maven-plugin/target/it/Xlint/src/main/java/Clazz.java
-/home/lniemeier/work/aspectj-maven-plugin/target/it/Xlint/src/main/aspect/OldStyleAspect.aj
-/home/lniemeier/work/aspectj-maven-plugin/target/it/Xlint/src/main/aspect/Azpect.java
