@@ -1,0 +1,9 @@
+-1.5
+-classpath
+/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/3.8.2/junit-3.8.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/target/test-classes:/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/target/classes
+-aspectpath
+/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/target/classes
+-d
+/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/target/test-classes
+/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/src/test/java/ATestAzpect.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/NoMainSourceWeave/src/test/java/ATestCase.java

@@ -1,0 +1,686 @@
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 14:51:28+0100)
+Maven home: /home/lniemeier/develop/apache-maven-3.0.5
+Java version: 1.8.0_40, vendor: Oracle Corporation
+Java home: /home/lniemeier/develop/jdk1.8.0_40/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.16.0-38-generic", arch: "amd64", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /home/lniemeier/develop/apache-maven-3.0.5/conf/settings.xml
+[DEBUG] Reading user settings from /home/lniemeier/work/aspectj-maven-plugin/target/it/interpolated-settings.xml
+[DEBUG] Using local repository at /home/lniemeier/work/aspectj-maven-plugin/target/local-repo
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/lniemeier/work/aspectj-maven-plugin/target/local-repo
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project de.zalando.mojo.aspectj.it:ajcreport:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Skipped remote update check for de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+[DEBUG] Skipped remote update check for de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: de.zalando.mojo.aspectj.it:ajcreport:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile, de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ajcreport 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       de.zalando.mojo.aspectj.it:ajcreport:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [local.central (file:///home/lniemeier/.m2/repository, releases+snapshots), central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [local.central (file:///home/lniemeier/.m2/repository, releases+snapshots), central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.5:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:compile (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <ajdtBuildDefFile>build-1-5.ajproperties</ajdtBuildDefFile>
+  <argumentFileName default-value="builddef.lst"/>
+  <aspectDirectory default-value="src/main/aspect"/>
+  <basedir default-value="${basedir}"/>
+  <complianceLevel default-value="1.4">1.5</complianceLevel>
+  <encoding>${project.build.sourceEncoding}</encoding>
+  <forceAjcCompile default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <skip default-value="false">${aspectj.skip}</skip>
+  <source default-value="${mojo.java.target}"/>
+  <target default-value="${project.build.java.target}"/>
+  <testAspectDirectory default-value="src/test/aspect"/>
+  <verbose>true</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <ajdtBuildDefFile>build-1-5.ajproperties</ajdtBuildDefFile>
+  <aspectDirectory default-value="src/main/aspect"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <complianceLevel default-value="${mojo.java.target}">1.5</complianceLevel>
+  <outputDirectory default-value="${project.reporting.outputDirectory}/aspectj-report"/>
+  <pluginArtifacts default-value="${plugin.artifacts}"/>
+  <privateScope>true</privateScope>
+  <project default-value="${project}"/>
+  <testAspectDirectory default-value="src/test/aspect"/>
+  <verbose>true</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] de.zalando.mojo.aspectj.it:ajcreport:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.aspectj:aspectjrt:jar:1.8.5:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ ajcreport ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG]   (f) reportDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target
+[DEBUG] Skipping non-existing directory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG] Skipping non-existing directory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes
+[DEBUG] Skipping non-existing directory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ ajcreport ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.5:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[debug] execute contextualize
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.5:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: de.zalando.mojo.aspectj.it:ajcreport:0.0.1-SNAPSHOT @ /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2dc995f4
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.DESKTOP_SESSION=ubuntu, env.OLDPWD=/home/lniemeier/work, file.encoding.pkg=sun.io, java.home=/home/lniemeier/develop/jdk1.8.0_40/jre, env.GDM_LANG=en_US, env.DISPLAY=:0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_VTNR=7, env.BYOBU_DARK=#333333, classworlds.conf=/home/lniemeier/develop/apache-maven-3.0.5/bin/m2.conf, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/lniemeier, java.endorsed.dirs=/home/lniemeier/develop/jdk1.8.0_40/jre/lib/endorsed, env.LOGNAME=lniemeier, env.XDG_SEAT=seat0, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, env.BYOBU_DISTRO=Ubuntu, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, java.version=1.8.0_40, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.LANGUAGE=en_US, env.BYOBU_PAGER=sensible-pager, env.BYOBU_SED=sed, env.BYOBU_CHARMAP=UTF-8, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-RuLKQM, env.PS1=\[\033[0;90m\]\t $(\
+JDK_VERSION=$(jdk); \
+if [ "$JDK_VERSION" = "?" ]; then \
+  echo "\[\033[1;31m\]?"; \
+elif [ "$JDK_VERSION" = "7" ]; then \
+  echo "\[\033[1;32m\]7"; \
+elif [ "$JDK_VERSION" = "8" ]; then \
+  echo "\[\033[1;34m\]8"; \
+else \
+  echo "\[\033[1;33m\]$JDK_VERSION"; \
+fi)\[\033[0m\]$(git branch &>/dev/null;\
+if [ $? -eq 0 ]; then \
+  echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
+  if [ "$?" -eq "0" ]; then \
+    # @4 - Clean repository - nothing to commit
+    echo "\[\033[0;32m\]"$(__git_ps1 " (%s)"); \
+  else \
+    # @5 - Changes to working tree
+    echo "\[\033[0;91m\]"$(__git_ps1 " {%s}"); \
+  fi) \[\033[1;33m\]\w\[\033[0m\]\$ "; \
+else \
+  # @2 - Prompt when not in GIT repo
+  echo " \[\033[0;33m\]\w\[\033[0m\]\$ "; \
+fi), env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2296, user.name=lniemeier, env.LANG=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, env.TMUX=/tmp/tmux-1000/default,5479,1, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-r9oRN0hNOB, java.runtime.name=Java(TM) SE Runtime Environment, env.BYOBU_RUN_DIR=/dev/shm/byobu-lniemeier-plyorQ4L, java.specification.name=Java Platform API Specification, user.timezone=Europe/Berlin, env.LESSOPEN=| /usr/bin/lesspipe %s, path.separator=:, env.XMODIFIERS=@im=ibus, file.encoding=UTF-8, env.HOME=/home/lniemeier, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=/home/lniemeier/work/aspectj-maven-plugin/target/local-repo -s /home/lniemeier/work/aspectj-maven-plugin/target/it/interpolated-settings.xml clean compile de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report, env.BYOBU_PYTHON=python3, env.MAVEN_TERMINATE_CMD=on, env.BYOBU_BACKEND=tmux, env._=/home/lniemeier/develop/apache-maven-3.0.5/bin/mvn, java.io.tmpdir=/tmp, env.GNOME_KEYRING_PID=2293, user.language=en, env.UPSTART_EVENTS=xsession started, line.separator=
+, maven.repo.local=/home/lniemeier/work/aspectj-maven-plugin/target/local-repo, env.CLUTTER_IM_MODULE=xim, java.vm.info=mixed mode, env.TMUX_PANE=%34, env.BYOBU_TTY=/dev/pts/0, sun.desktop=gnome, java.vm.specification.name=Java Virtual Machine Specification, env.M2_REPO=/home/lniemeier/.m2, env.BYOBU_WINDOW_NAME=-, env.COLORTERM=gnome-terminal, env.M2_HOME=/home/lniemeier/develop/apache-maven-3.0.5, env.TEXTDOMAIN=im-config, env.BYOBU_CONFIG_DIR=/home/lniemeier/.byobu, env.IM_CONFIG_PHASE=1, env.GDMSESSION=ubuntu, env.XDG_SESSION_DESKTOP=ubuntu, java.awt.printerjob=sun.print.PSPrinterJob, env.VTE_VERSION=3603, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.BYOBU_PREFIX=/usr, env.XDG_SESSION_TYPE=x11, env.WINDOWID=71303180, env.COMPIZ_CONFIG_PROFILE=ubuntu, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.JOB=unity-settings-daemon, env.BYOBU_ACCENT=#75507B, os.name=Linux, java.specification.vendor=Oracle Corporation, env.TERM=screen, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.QT_IM_MODULE=ibus, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/usr/local/heroku/bin:/home/lniemeier/develop/jdk1.8.0_40/bin:/home/lniemeier/work/db-utils:/home/lniemeier/develop/apache-cassandra-2.0.13/bin:/home/lniemeier/develop/apache-maven-3.0.5/bin:/home/lniemeier/bin:/home/lniemeier/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.TEXTDOMAINDIR=/usr/share/locale/, java.class.version=52.0, env.SHLVL=2, env.UPSTART_JOB=unity7, sun.boot.library.path=/home/lniemeier/develop/jdk1.8.0_40/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=lniemeier, env.GTK_IM_MODULE=ibus, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, env.SESSIONTYPE=gnome-session, java.vm.specification.version=1.8, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, awt.toolkit=sun.awt.X11.XToolkit, env.BYOBU_READLINK=readlink, sun.cpu.isalist=, env.COMPIZ_BIN_PATH=/usr/bin/, java.ext.dirs=/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext:/usr/java/packages/lib/ext, os.version=3.16.0-38-generic, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, user.home=/home/lniemeier, env.XDG_CURRENT_DESKTOP=Unity, java.vm.vendor=Oracle Corporation, env.BYOBU_ULIMIT=ulimit, env.SESSION=ubuntu, env.BYOBU_LIGHT=#EEEEEE, env.JAVA_HOME=/home/lniemeier/develop/jdk1.8.0_40, env.XDG_SESSION_ID=c2, env.XAUTHORITY=/home/lniemeier/.Xauthority, user.dir=/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, env.PWD=/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport, sun.cpu.endian=little, java.vm.version=25.40-b25, java.class.path=/home/lniemeier/develop/apache-maven-3.0.5/boot/plexus-classworlds-2.4.jar, os.arch=amd64, maven.build.version=Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 14:51:28+0100), env.BYOBU_TIME=, sun.java.launcher=SUN_STANDARD, env.UPSTART_INSTANCE=, java.vm.specification.vendor=Oracle Corporation, file.separator=/, java.runtime.version=1.8.0_40-b26, env.SSH_AUTH_SOCK=/home/lniemeier/.byobu/.ssh-agent, sun.boot.class.path=/home/lniemeier/develop/jdk1.8.0_40/jre/lib/resources.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/sunrsasign.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jsse.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jce.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/charsets.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jfr.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/classes, env.BYOBU_DATE=, env.QT4_IM_MODULE=xim, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.XDG_RUNTIME_DIR=/run/user/1000, maven.version=3.0.5, user.country=US, env.INSTANCE=, maven.home=/home/lniemeier/develop/apache-maven-3.0.5, env.SHELL=/bin/bash, env.BYOBU_HIGHLIGHT=#DD4814, java.vendor=Oracle Corporation, env.GPG_AGENT_INFO=/run/user/1000/keyring-RuLKQM/gpg:0:1, java.specification.version=1.8, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, sun.arch.data.model=64}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ ajcreport ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport
+[DEBUG]   (f) buildDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target
+[DEBUG]   (f) classpathElements = [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes, /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/generated-sources/annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG]   (f) outputFileName = ajcreport-0.0.1-SNAPSHOT
+[DEBUG]   (f) projectArtifact = de.zalando.mojo.aspectj.it:ajcreport:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2dc995f4
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java]
+[DEBUG] Classpath: [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+ /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar]
+[DEBUG] Output directory: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG] Classpath:
+[DEBUG]  /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG]  /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes -classpath /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar: -sourcepath /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java/Clazz.java -g -nowarn -target 1.5 -source 1.5
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.8.1-SNAPSHOT:compile (default) @ ajcreport ---
+[DEBUG] de.zalando:aspectj-maven-plugin:jar:1.8.1-SNAPSHOT:
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.1.2:compile
+[DEBUG]          xerces:xercesImpl:jar:2.8.1:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]          commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.aspectj:aspectjtools:jar:1.8.5:compile
+[DEBUG]    com.sun:tools:jar:1.8.0_40:system
+[DEBUG] Created new class realm plugin>de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT
+[DEBUG] Importing foreign packages into class realm plugin>de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT
+[DEBUG]   Included: de.zalando:aspectj-maven-plugin:jar:1.8.1-SNAPSHOT
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.1.2
+[DEBUG]   Included: xerces:xercesImpl:jar:2.8.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.aspectj:aspectjtools:jar:1.8.5
+[DEBUG]   Included: com.sun:tools:jar:1.8.0_40
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG] Configuring mojo de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:compile from plugin realm ClassRealm[plugin>de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:compile' with basic configurator -->
+[DEBUG]   (f) ajdtBuildDefFile = build-1-5.ajproperties
+[DEBUG]   (s) argumentFileName = builddef.lst
+[DEBUG]   (f) aspectDirectory = src/main/aspect
+[DEBUG]   (f) basedir = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport
+[DEBUG]   (s) complianceLevel = 1.5
+[DEBUG]   (f) forceAjcCompile = false
+[DEBUG]   (f) outputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG]   (f) project = MavenProject: de.zalando.mojo.aspectj.it:ajcreport:0.0.1-SNAPSHOT @ /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testAspectDirectory = src/test/aspect
+[DEBUG]   (s) verbose = true
+[DEBUG] -- end configuration --
+[DEBUG] Adding existing aspectSourcePathDir [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect] to compileSourceRoots.
+[DEBUG] Not adding non-existent or already added testAspectSourcePathDir [/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/test/aspect] to testCompileSourceRoots.
+[DEBUG] Running : ajc -1.5 -verbose -classpath /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes -d /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/OldStyleAspect.aj /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java/Clazz.java
+[DEBUG] Compiling and weaving 3 sources to /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes
+[DEBUG] Arguments file written : /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes/builddef.lst
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[DEBUG] directory classpath entry does not exist: /home/lniemeier/develop/jdk1.8.0_40/jre/lib/sunrsasign.jar
+[DEBUG] zipfile classpath entry does not exist: /home/lniemeier/develop/jdk1.8.0_40/jre/classes
+[DEBUG] Pipelining compilation
+[DEBUG] compiling /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/OldStyleAspect.aj
+[DEBUG] compiling /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java
+[DEBUG] weaver operating in reweavable mode.  Need to verify any required types exist.
+[DEBUG] woven aspect OldStyleAspect (from /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/OldStyleAspect.aj)
+[DEBUG] woven aspect Azpect (from /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java)
+[WARNING] no match for this type name: ATestCase [Xlint:invalidAbsoluteTypeName]
+	/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java:41
+@Before ("execution (* ATestCase.*(..))")
+                       ^^^^^^
+
+[DEBUG] compiling /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java/Clazz.java
+[DEBUG] woven class Clazz (from /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java/Clazz.java)
+[WARNING] advice defined in Azpect has not been applied [Xlint:adviceDidNotMatch]
+	/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java:42
+
+[DEBUG] Compiler took 1074ms
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report (default-cli) @ ajcreport ---
+[DEBUG] Configuring mojo de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report from plugin realm ClassRealm[plugin>de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[DEBUG] Setting property: site.resource.loader.class => 'org.codehaus.plexus.velocity.SiteResourceLoader'.
+[DEBUG] Setting property: velocimacro.messages.on => 'false'.
+[DEBUG] Setting property: resource.loader => 'classpath,site'.
+[DEBUG] Setting property: runtime.log.invalid.references => 'false'.
+[DEBUG] Setting property: resource.manager.logwhenfound => 'false'.
+[DEBUG] Setting property: velocimacro.permissions.allow.inline.to.replace.global => 'true'.
+[DEBUG] *******************************************************************
+[DEBUG] Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+[DEBUG] RuntimeInstance initializing.
+[DEBUG] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+[DEBUG] LogSystem has been deprecated. Please use a LogChute implementation.
+[DEBUG] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.SiteResourceLoader
+[DEBUG] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+[DEBUG] Default ResourceManager initialization complete.
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+[DEBUG] Created '20' parsers.
+[DEBUG] Velocimacro : initialization starting.
+[DEBUG] Velocimacro : allowInline = true : VMs can be defined inline in templates
+[DEBUG] Velocimacro : allowInlineToOverride = true : VMs defined inline may replace previous VM definitions
+[DEBUG] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+[DEBUG] Velocimacro : autoload off : VM system will not automatically reload global library macros
+[DEBUG] Velocimacro : Velocimacro : initialization complete.
+[DEBUG] RuntimeInstance successfully initialized.
+[DEBUG] Configuring mojo 'de.zalando:aspectj-maven-plugin:1.8.1-SNAPSHOT:aspectj-report' with basic configurator -->
+[DEBUG]   (f) ajdtBuildDefFile = build-1-5.ajproperties
+[DEBUG]   (f) aspectDirectory = src/main/aspect
+[DEBUG]   (f) basedir = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport
+[DEBUG]   (f) buildDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target
+[DEBUG]   (s) complianceLevel = 1.5
+[DEBUG]   (f) outputDirectory = /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report
+[DEBUG]   (s) pluginArtifacts = [de.zalando:aspectj-maven-plugin:maven-plugin:1.8.1-SNAPSHOT:, org.codehaus.plexus:plexus-utils:jar:3.0.10:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, junit:junit:jar:3.8.1:compile, org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile, org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile, org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile, org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile, org.apache.maven.doxia:doxia-core:jar:1.1.2:compile, xerces:xercesImpl:jar:2.8.1:compile, commons-lang:commons-lang:jar:2.4:compile, commons-httpclient:commons-httpclient:jar:3.1:compile, commons-codec:commons-codec:jar:1.2:compile, org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile, org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile, org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile, org.apache.velocity:velocity:jar:1.5:compile, oro:oro:jar:2.0.8:compile, commons-collections:commons-collections:jar:3.2:compile, org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile, commons-validator:commons-validator:jar:1.2.0:compile, commons-beanutils:commons-beanutils:jar:1.7.0:compile, commons-digester:commons-digester:jar:1.6:compile, commons-logging:commons-logging:jar:1.0.4:compile, xml-apis:xml-apis:jar:1.0.b2:compile, org.aspectj:aspectjtools:jar:1.8.5:compile, com.sun:tools:jar:1.8.0_40:system]
+[DEBUG]   (s) privateScope = true
+[DEBUG]   (f) project = MavenProject: de.zalando.mojo.aspectj.it:ajcreport:0.0.1-SNAPSHOT @ /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/pom.xml
+[DEBUG]   (f) testAspectDirectory = src/test/aspect
+[DEBUG]   (s) verbose = true
+[DEBUG] -- end configuration --
+[INFO] Starting generating ajdoc
+[DEBUG] Running : ajdoc  -classpath /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/de/zalando/aspectj-maven-plugin/1.8.1-SNAPSHOT/aspectj-maven-plugin-1.8.1-SNAPSHOT.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/velocity/velocity/1.5/velocity-1.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/oro/oro/2.0.8/oro-2.0.8.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-digester/commons-digester/1.6/commons-digester-1.6.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjtools/1.8.5/aspectjtools-1.8.5.jar:/home/lniemeier/develop/jdk1.8.0_40/jre/../lib/tools.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes:/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes -source 1.5 -private -verbose -d /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/OldStyleAspect.aj /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/java/Clazz.java
+> Calling ajc...
+[warning] incorrect classpath: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes
+	
+/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java:41 [warning] no match for this type name: ATestCase [Xlint:invalidAbsoluteTypeName]
+@Before ("execution (* ATestCase.*(..))")
+                       ^^^^^^
+	[Xlint:invalidAbsoluteTypeName]
+/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/src/main/aspect/Azpect.java:42 [warning] advice defined in Azpect has not been applied [Xlint:adviceDidNotMatch]
+	
+
+3 warnings
+> Building signature files...
+> Calling javadoc...
+Loading source file /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/OldStyleAspect.java...
+[parsing started RegularFileObject[/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/OldStyleAspect.java]]
+[parsing completed 28ms]
+Loading source file /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/Azpect.java...
+[parsing started RegularFileObject[/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/Azpect.java]]
+[parsing completed 1ms]
+Loading source file /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/Clazz.java...
+[parsing started RegularFileObject[/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/ajdocworkingdir/Clazz.java]]
+[parsing completed 2ms]
+Constructing Javadoc information...
+[search path for source files: /home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/de/zalando/aspectj-maven-plugin/1.8.1-SNAPSHOT/aspectj-maven-plugin-1.8.1-SNAPSHOT.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-lang/commons-lang/2.4/commons-lang-2.4.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-codec/commons-codec/1.2/commons-codec-1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/velocity/velocity/1.5/velocity-1.5.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/oro/oro/2.0.8/oro-2.0.8.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-collections/commons-collections/3.2/commons-collections-3.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-digester/commons-digester/1.6/commons-digester-1.6.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjtools/1.8.5/aspectjtools-1.8.5.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/../lib/tools.jar,/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes,/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes]
+[search path for class files: /home/lniemeier/develop/jdk1.8.0_40/jre/lib/resources.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/sunrsasign.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jsse.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jce.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/charsets.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/jfr.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/classes,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/sunjce_provider.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/cldrdata.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/jfxrt.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/sunpkcs11.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/zipfs.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/nashorn.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/localedata.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/dnsns.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/lib/ext/sunec.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/de/zalando/aspectj-maven-plugin/1.8.1-SNAPSHOT/aspectj-maven-plugin-1.8.1-SNAPSHOT.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-lang/commons-lang/2.4/commons-lang-2.4.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-codec/commons-codec/1.2/commons-codec-1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/velocity/velocity/1.5/velocity-1.5.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/oro/oro/2.0.8/oro-2.0.8.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-collections/commons-collections/3.2/commons-collections-3.2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-digester/commons-digester/1.6/commons-digester-1.6.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar,/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjtools/1.8.5/aspectjtools-1.8.5.jar,/home/lniemeier/develop/jdk1.8.0_40/jre/../lib/tools.jar,/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/classes,/home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/test-classes]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar(org/aspectj/lang/annotation/Before.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar(org/aspectj/lang/annotation/Aspect.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/Error.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/Void.class)]]
+Standard Doclet version 1.8.0_40
+Building tree for all the packages and classes...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/Azpect.html...
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/lang/FunctionalInterface.class)]]
+[loading ZipFileIndexFileObject[/home/lniemeier/develop/jdk1.8.0_40/jre/lib/rt.jar(java/io/Serializable.class)]]
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/Clazz.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/OldStyleAspect.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/package-frame.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/package-summary.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/package-tree.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/constant-values.html...
+Building index for all the packages and classes...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/overview-tree.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/index-all.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/deprecated-list.html...
+Building index for all classes...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/allclasses-frame.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/allclasses-noframe.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/index.html...
+Generating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/help-doc.html...
+[done in 987 ms]
+> Decorating html files...
+> Decorating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/OldStyleAspect.html...
+> Decorating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/Azpect.html...
+> Decorating /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/target/site/aspectj-report/Clazz.html...
+> Removing generated tags...
+> Finished.
+[DEBUG] Velocimacro : added #link(  href name target img position alt border width height ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #image(  img alt border width height ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #banner(  banner id ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #links(  links ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #breadcrumbs(  breadcrumbs ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #displayTree(  display item ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #menuItem(  item ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #mainMenu(  menus ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #copyright(  ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #publishDate(  position publishDate version ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[DEBUG] Velocimacro : added #poweredByLogo(  poweredBy ) : source = org/apache/maven/doxia/siterenderer/resources/default-site.vm
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.271s
+[INFO] Finished at: Wed Jun 10 09:31:44 CEST 2015
+[INFO] Final Memory: 28M/308M
+[INFO] ------------------------------------------------------------------------
+Running post-build script: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/verify.groovy
+Finished post-build script: /home/lniemeier/work/aspectj-maven-plugin/target/it/CreateReport/verify.groovy

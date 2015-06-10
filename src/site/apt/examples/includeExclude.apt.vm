@@ -29,7 +29,7 @@ Using sources
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>de.zalando.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
         <version>${project.version}</version>
         <configuration>
@@ -83,7 +83,7 @@ Using includes/excludes
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>de.zalando.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
         <version>${project.version}</version>
         <configuration>

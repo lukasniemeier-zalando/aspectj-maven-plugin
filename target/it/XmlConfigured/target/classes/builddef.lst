@@ -1,0 +1,10 @@
+-1.5
+-classpath
+/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/target/classes
+-xmlConfigured
+/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/target/classes/aopTestExample.xml
+-d
+/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/target/classes
+/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/src/main/java/IncludedClazz.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/src/main/java/ExcludedClazz.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured/src/main/aspect/Azpect.aj

@@ -1,0 +1,5 @@
+-classpath
+a:b:c
+-showWeaveInfo
+/home/aspectj/AFile
+/home/aspectj/AnotherFile

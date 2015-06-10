@@ -1,0 +1,9 @@
+-Xajruntimetarget:1.2
+-1.5
+-classpath
+/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/Xajruntimetarget/target/classes
+-d
+/home/lniemeier/work/aspectj-maven-plugin/target/it/Xajruntimetarget/target/classes
+/home/lniemeier/work/aspectj-maven-plugin/target/it/Xajruntimetarget/src/main/java/Clazz.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/Xajruntimetarget/src/main/aspect/OldStyleAspect.aj
+/home/lniemeier/work/aspectj-maven-plugin/target/it/Xajruntimetarget/src/main/aspect/Azpect.java

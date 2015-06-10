@@ -27,7 +27,7 @@ Using together with AJDT
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>de.zalando.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
         <version>${project.version}</version>
         <configuration>
@@ -55,5 +55,5 @@ Using together with AJDT
 +------------------------------------------+
 src.includes = src/main/aspect,\
                src/main/java/com/mycompany/myaspects/**/*TransactionAspect.java 
-src.excludes = src/main/java/org/codehaus/mojo/aspectj/Azpect.java
+src.excludes = src/main/java/de/zalando/mojo/aspectj/Azpect.java
 +------------------------------------------+

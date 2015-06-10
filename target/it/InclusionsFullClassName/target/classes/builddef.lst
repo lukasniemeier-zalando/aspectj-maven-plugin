@@ -1,0 +1,6 @@
+-1.4
+-classpath
+/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/InclusionsFullClassName/target/classes
+-d
+/home/lniemeier/work/aspectj-maven-plugin/target/it/InclusionsFullClassName/target/classes
+/home/lniemeier/work/aspectj-maven-plugin/target/it/InclusionsFullClassName/src/main/aspect/foo/OldStyleAspect.aj

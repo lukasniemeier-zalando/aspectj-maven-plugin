@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.zalando</groupId>
+  <artifactId>aspectj-maven-plugin</artifactId>
+  <versioning>
+    <latest>1.8.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.8.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150610072950</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,14 @@
+-1.5
+-showWeaveInfo
+-verbose
+-classpath
+/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/junit/junit/4.12/junit-4.12.jar:/home/lniemeier/work/aspectj-maven-plugin/target/local-repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/target/test-classes:/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/target/classes
+-aspectpath
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/target/classes
+-d
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/target/test-classes
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/src/main/aspect/OldStyleAspect.aj
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/src/main/aspect/Azpect.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/src/main/java/Clazz.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/src/test/java/foo/ATestAzpect.java
+/home/lniemeier/work/aspectj-maven-plugin/target/it/AjcTestCompilerUsingCorrectClasspath/src/test/java/foo/ATestCase.java

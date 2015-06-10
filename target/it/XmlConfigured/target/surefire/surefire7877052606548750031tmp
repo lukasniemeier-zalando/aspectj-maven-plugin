@@ -1,0 +1,6 @@
+#surefire
+#Wed Jun 10 09:33:02 CEST 2015
+user.dir=/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured
+maven.repo.local=/home/lniemeier/work/aspectj-maven-plugin/target/local-repo
+localRepository=/home/lniemeier/work/aspectj-maven-plugin/target/local-repo
+basedir=/home/lniemeier/work/aspectj-maven-plugin/target/it/XmlConfigured
