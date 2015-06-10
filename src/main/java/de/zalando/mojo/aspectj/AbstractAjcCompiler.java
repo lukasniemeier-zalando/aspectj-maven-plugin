@@ -400,6 +400,13 @@ public abstract class AbstractAjcCompiler extends AbstractAjcMojo {
     protected boolean forceAjcCompile;
 
     /**
+     * Additional compiler arguments that are passed to ajc.
+     *
+     * @parameter
+     */
+    protected String[] additionalCompilerArguments;
+
+    /**
      * Holder for ajc compiler options
      */
     protected List<String> ajcOptions = new ArrayList<String>();
@@ -615,6 +622,13 @@ public abstract class AbstractAjcCompiler extends AbstractAjcMojo {
             resolvedIncludes = getIncludedSources();
         }
         ajcOptions.addAll(resolvedIncludes);
+
+
+        if (additionalCompilerArguments != null) {
+            for (String argument : additionalCompilerArguments) {
+                ajcOptions.add(argument);
+            }
+        }
     }
 
     protected Set<String> getIncludedSources()

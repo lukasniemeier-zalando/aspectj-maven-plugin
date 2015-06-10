@@ -347,4 +347,34 @@ public class AbstractAjcCompilerTest
         // should not fail
     }
 
+    /**
+     * Tests if additional compiler arguments are passed to the compiler if specified.
+     *
+     * @throws Exception
+     */
+    public void testGetAjcArguments_additionalCompilerArguments()
+            throws Exception {
+        ajcCompMojo.weaveDependencies = new Module[1];
+        Module module1 = new Module();
+        String mod1Group = "dill.group";
+        module1.setGroupId(mod1Group);
+        String mod1Artifact = "dall.artifact";
+        module1.setArtifactId(mod1Artifact);
+        String mod1classifier = "dev";
+        module1.setClassifier(mod1classifier);
+        ajcCompMojo.weaveDependencies[0] = module1;
+        String mod2classifier = "stable";
+        // Modify project to include dependencies
+        Set artifacts = new HashSet();
+        artifacts.add(new MockArtifact(mod1Group, mod1Artifact, mod1classifier, "jar"));
+        artifacts.add(new MockArtifact(mod1Group, mod1Artifact, mod2classifier, "jar"));
+        ajcCompMojo.project.setArtifacts(artifacts);
+
+        ajcCompMojo.additionalCompilerArguments = new String[] {"-additional"};
+        ajcCompMojo.assembleArguments();
+        List args = ajcCompMojo.ajcOptions;
+
+        assertTrue( args.contains( "-additional" ) );
+    }
+
 }
