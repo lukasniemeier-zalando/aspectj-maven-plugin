@@ -4,7 +4,7 @@
 
     <groupId>de.zalando</groupId>
     <artifactId>aspectj-maven-plugin</artifactId>
-    <version>1.8.1-SNAPSHOT</version>
+    <version>1.8.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Mojo's AspectJ Maven Plugin</name>
@@ -54,6 +54,12 @@
                 <role>Java Developer</role>
             </roles>
             <timezone>-6</timezone>
+        </developer>
+        <developer>
+            <id>lniemeier</id>
+            <name>Lukas Niemeier</name>
+            <email>lukas.niemeier@zalando.de</email>
+            <organizationUrl>https://www.zalando.de</organizationUrl>
         </developer>
     </developers>
 
@@ -278,66 +284,6 @@
         </plugins>
     </build>
 
-    <reporting>
-        <plugins>
-            <plugin>
-                <artifactId>maven-plugin-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-changes-plugin</artifactId>
-                <version>2.11</version>
-                <configuration>
-                    <columnNames>Type,Key,Summary,Assignee,Status,Resolution,Created</columnNames>
-                    <generateJiraAnnouncement>true</generateJiraAnnouncement>
-                    <issueTypes>
-                        <Task>update</Task>
-                    </issueTypes>
-                    <maxEntries>200</maxEntries>
-                    <onlyCurrentVersion>true</onlyCurrentVersion>
-                    <sortColumnNames>Type,Key</sortColumnNames>
-                    <toAddresses>
-                        <toAddress>dev@mojo.codehaus.org</toAddress>
-                        <toAddress>user@mojo.codehaus.org</toAddress>
-                        <toAddress>users@maven.apache.org</toAddress>
-                        <toAddress>aspectj-users@eclipse.org</toAddress>
-                    </toAddresses>
-                    <urlDownload>${project.url}</urlDownload>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>l10n-maven-plugin</artifactId>
-                <version>1.0-alpha-2</version>
-                <configuration>
-                    <locales>
-                        <locale>nl</locale>
-                        <locale>sv</locale>
-                    </locales>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.8</version>
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <report>cim</report>
-                            <report>dependency-info</report>
-                            <report>index</report>
-                            <report>issue-tracking</report>
-                            <report>mailing-list</report>
-                            <report>project-team</report>
-                            <report>scm</report>
-                            <report>summary</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-            </plugin>
-        </plugins>
-    </reporting>
-
     <profiles>
         <!--
           The AspectJ compilation requires that tools.jar (or its equivalent for some JDKs) is found on the classpath.
@@ -396,4 +342,17 @@
             </build>
         </profile>
     </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>${repository.url.releases}</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>${repository.url.snapshots}</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
